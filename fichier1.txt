@@ -1,0 +1,7 @@
+Fichier test du projet.
+@Test
+public void Given_FriesAndAllSides_When_DisplaySideSelected_Then_DisplayFriesSentence() {
+        order.displaySelectedSide(1, true);
+        String output = outContent.toString().replace("\r\n", "\n");
+        assertEquals("Vous avez choisi comme accompagnement : légumes frais\n", output);
+    }
