@@ -3,7 +3,10 @@ public class Order {
 		if (allSideEnable) {
 			if (nbside == 1) {
 				System.out.println("Vous avez choisi: légumes frais");
+			}else if {
+				System.out.println("Vous avez choisi: frites");
 			}
+			
 		}else{
 		
 		}
