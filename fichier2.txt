@@ -1,0 +1,11 @@
+public class Order {
+	public void displaySelectedSide(int nbSide, boolean allSideEnable) {
+		if (allSideEnable) {
+			if (nbside == 1) {
+				System.out.println("Vous avez choisi: légumes frais");
+			}
+		}else{
+		
+		}
+	}
+}
