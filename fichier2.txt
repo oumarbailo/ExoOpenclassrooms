@@ -1,16 +1,20 @@
 public class Order {
 	public void displaySelectedSide(int nbSide, boolean allSideEnable) {
 		if (allSideEnable) {
-			if (nbside == 1) {
+			if (nbSide == 1) {
 				System.out.println("Vous avez choisi: légumes frais");
-			}else if {
+			}else if (nbSide == 2 ) {
 				System.out.println("Vous avez choisi: frites");
-			}else if {
+			}else if (nbSide == 3 {
 				Sytem.out.println("Vous avez choisi: Banane");
+			}else if (nbSide == 4 ) {
+				System.out.println("vous avez choisi: Mangue");
+			}else {
+				System.out.println("Vous n'avez rien choisi");
 			}
 			
 		}else{
-		
+			System.out.println("Pas de choix");
 		}
 	}
 }
